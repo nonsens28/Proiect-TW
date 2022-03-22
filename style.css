@@ -1,0 +1,189 @@
+html {
+    font-family:'Calibri', sans-serif;
+    color: rgb(40, 40, 40);
+    padding-left:1%;
+    font-size: larger;
+}
+
+#titlu{
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#img{
+    width:40vw;
+    height:25vw;
+    border:1px solid gray;
+}
+
+#divimg{
+    display:flex;
+    padding-right: 3%;
+    padding-top: 3%;
+    border-top:0.5em solid black;
+}
+
+#descriere{
+    margin-left:5%;
+    margin-right:10%;
+    text-align: justify;
+    font-size:larger;
+    line-height: 2.5vw;
+
+}
+
+.divtxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ing{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+#txtinfo{
+    font-weight: bold;
+    margin-left:2%;
+    padding-left: 5%;
+}
+
+span{
+    border-bottom: 3px solid black;
+}
+
+#mod{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 3%;
+    text-align: justify;
+}
+
+#final{
+    display:flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+#valori{
+    display: flex;
+    font-size:150%;
+    font-weight: bolder;
+    margin-left:15%;
+    margin-top: 100px;
+}
+
+#video{
+    width:50%;
+    height:100%;
+}
+
+#divdesc{
+    display:flex;
+
+}
+
+#info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#timptxt{
+    text-align:center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#info12{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+#info1{
+    margin-right:2vw;
+}
+
+@media (max-width: 990px) {
+    #valori{
+        font-size:150%;
+        margin-left:15%;
+    }
+        #video{
+            width:50%;
+            height:50%;
+        }
+        #final{
+            display:flex;
+            flex-direction: column;
+            height: 500px;
+        }
+        #info{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        #line{
+            text-align:center;
+        }
+        #info3{
+            margin-left:34vw;
+            margin-right:30vw;
+            margin-top:-4%
+        }
+        html {
+            font-family:'Calibri', sans-serif;
+            color: rgb(40, 40, 40);
+            font-size: larger;
+        }
+        #descriere{
+            margin-top:-2.5%;
+            text-align: justify;
+            font-size:larger;
+            line-height: 2.5vw;
+        }
+}
+
+@media (max-width: 768px) {
+    #divimg{
+        display:flex;
+        flex-direction:column;
+        border-top:0.5em solid black;
+    }
+    #descriere{
+        text-align: justify;
+        font-size:larger;
+        line-height: 4vw;
+    }
+    #img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+    }
+    #info12{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #info3{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #txtinfo{
+        font-weight: bold;
+    }
+
+    #preparare{
+        margin-top:-10%;
+        display:flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,12 @@
+.tabel{
+    display:flex;
+    justify-content:space-evenly;
+    font-size: 125%;
+}
+.titlu{
+    font-size:200%; 
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid black 3px;
+}
