@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet" type="text/css">
+
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Reteta placinta cu mere</title>
 </head>
@@ -17,13 +18,7 @@
     <div id="divimg">
       <div class="divtxt">
         <article>
-          <p id="descriere">
-            &emsp;&emsp;Plăcinta cu mere este, cu siguranță, desertul copilăriei pentru mulți dintre
-            noi. Este un preparat care se face cu minim de efort și cu bani puțini. Plăcinta cu mere este una dintre
-            cele
-            mai simple, aromate, gustoase și fragede prăjituri pe care le poți face acasă, fără să petreci prea mult
-            timp
-            în bucătărie sau să-ți golești portofelul. Învață rețeta tradițională pentru plăcintă cu mere!
+          <p id="descriere" onload="loadDoc">
           </p>
         </article>
       </div>
@@ -136,7 +131,14 @@
           </div>
         </div>
     </div>
+    <form name="myForm" method="post" id="form">
+      Feedback: <input type="text" name="fname" id="uniqueID">
+      <input type="submit" id="submit">
+      <button type="button" id="modificare">Modificare feedback</button>
+      <button type="button" id="delete">Remove feedback</button>
+    </form>
   </main>
+  <script src="script.js"></script>
 </body>
 
 </html>
